@@ -61,7 +61,7 @@ GlucoVision Wearable Sync manages the entire lifecycle of connecting **BLE weara
 
 - Flutter SDK ≥ 3.0 (for mobile BLE)
 - Python ≥ 3.11 (for relay API)
-- InfluxDB, PostgreSQL, Docker & Docker Compose
+- InfluxDB, MySQL, Docker & Docker Compose
 
 ### Mobile BLE (Flutter)
 
@@ -93,7 +93,7 @@ docker compose up --build
 | REST API | FastAPI (Python) |
 | WebSocket | FastAPI WebSocket (live HR) |
 | Time-Series DB | InfluxDB |
-| Database | PostgreSQL (device registry, sync history) |
+| Database | MySQL (device registry, sync history) |
 | Containerisation | Docker |
 
 ---
